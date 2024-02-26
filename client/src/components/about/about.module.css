@@ -1,0 +1,53 @@
+/* about.module.css */
+
+.aboutContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .aboutContainer h1 {
+    font-size: 3rem;
+    color: #333;
+    margin-bottom: 20px;
+  }
+
+  .aboutContainer h2 {
+    font-size: 2rem;
+    color: #333;
+    margin-left: 20px;
+  }
+
+  
+  .aboutContainer p {
+    font-size: 1.2rem;
+    color: #0f0f0f;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .aboutContainer a {
+    color: #0471e6;
+    text-decoration: none;
+  }
+  
+  .aboutContainer a:hover {
+    text-decoration: underline;
+  }
+  
+  .aboutContainer button {
+    background-color: #0654a7;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .aboutContainer button:hover {
+    background-color: #41a341;
+  }
+  

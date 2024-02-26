@@ -28,7 +28,7 @@ const getTemps = async () => {
 
     if (result) return result
 
-    throw Errror("Something bad happens")
+    throw Error("Something bad happened")
 
 
 }

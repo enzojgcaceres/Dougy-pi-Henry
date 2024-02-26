@@ -1,0 +1,141 @@
+
+
+.tempContainer{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+     margin: 0 auto;
+    padding: 0 5rem;
+    margin-top: 10rem;
+    align-items: center;
+     background-color: var(--main-color);
+  
+     border-radius: 0.2rem;
+}
+
+.tempContainer h2 { 
+   
+  
+    font-size: 2rem;
+    padding: 1rem;
+  
+}
+.temph2{
+   text-align: center;
+   padding: 1rem;
+}
+
+.selectTempContainer{
+    padding: 1rem;
+display: flex;
+width: 100%;
+justify-content: space-around;
+
+}
+.selectTempContainer label {
+width: 20%;
+}
+
+.selectTempContainer select {
+    width: 50%;
+}
+.selectTempContainer button {
+    width: 30%;
+}
+
+.originContainer{
+    
+    padding: 1rem;
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+  
+}
+
+
+.originContainer label { 
+    width: 20%;
+}
+.originContainer select { 
+    width: 50%;
+}
+
+.originContainer button {
+    width: 30%;
+}
+
+.style{
+    
+    padding: 0.5rem;
+   
+}
+
+.style h4 { 
+    color :black;
+    font-size: 1.5rem;
+    
+}
+
+.orderContainer {
+    padding: 1rem;
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+}
+
+.orderContainer label {
+    width: 20%;
+}
+
+.orderContainer select {
+    width: 50%;
+}
+
+.orderContainer button {
+    width: 30%;
+}
+
+.pesoContainer{
+    padding: 1rem;
+        display: flex;
+        width: 100%;
+        justify-content: space-around;
+}
+
+.pesoContainer label {
+    width: 20%;
+}
+
+.pesoContainer select {
+    width: 50%;
+}
+
+.pesoContainer button {
+    width: 30%;
+}
+
+.button{
+    padding: 1rem;
+    margin-bottom: 0.5rem;
+    border-radius: 0.2rem;
+    font-weight: 600;
+    font-size: 1.1rem;
+    background-color: transparent;
+  
+}
+
+.button:hover{
+  
+    cursor: pointer;
+    color:black;
+    background-color: var(--triadic-color1);
+}
+
+
+@media (max-width: 600px){
+.tempContainer {
+       
+        width: 85%;
+      
+    }
+}

@@ -72,7 +72,7 @@ const Cards = () => {
                     onClick={handleClick}
                     key={num}
                     id={num}
-                    className={currentPage == num ? `${s.active} ` : null}>{num}</li >
+                    className={currentPage === num ? `${s.active} ` : null}>{num}</li >
             )
         } else { return null }
 

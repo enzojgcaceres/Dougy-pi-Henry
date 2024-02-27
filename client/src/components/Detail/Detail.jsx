@@ -55,9 +55,9 @@ const Detail = () => {
                     <div className={s.textInfo}>
                         <h2 className={s.style} >{dogDetails?.name}</h2>
 
-                        <h3 className={s.style} >Altura: {dogDetails?.height}</h3>
                         <h3 className={s.style} >peso: {dogDetails?.weight}</h3>
                         <h3 className={s.style} >{dogDetails?.life_span}</h3>
+                        <h3 className={s.style} >Criado para: {dogDetails?.bred_for}</h3>
 
 
 

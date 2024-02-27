@@ -244,7 +244,7 @@ const Form = () => {
                     <label htmlFor="" className={s.label} >URL de Imagen</label>
                     <input
                         onChange={handleChange}
-                        value={form.image}
+                        value={form.imagen}
                         name="imagen"
                         className={`${s.input} input-field`}
                         type="text" />

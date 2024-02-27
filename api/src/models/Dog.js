@@ -22,6 +22,10 @@ module.exports = (sequelize) => {
       type: DataTypes.STRING,
       allowNull: false
     },
+    bred_for: {
+      type: DataTypes.STRING,
+      allowNull: true
+    },
     life_span: {
       type: DataTypes.STRING,
       allowNull: false

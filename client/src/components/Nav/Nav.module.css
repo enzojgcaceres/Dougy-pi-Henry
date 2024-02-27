@@ -12,12 +12,17 @@
     
     display: flex;
     justify-content:space-around;
-    padding: 1.5rem;
+    padding: 0.4rem;
     position: fixed;
     width: 100%;
     align-items: center;
     top: 0;
-    background-color: var(--main-color);
+    background-color: var(--custom-color);
+}
+
+.linksContainer {
+    --custom-color: #f7dafa;
+    
 }
 
 .aboutLink,

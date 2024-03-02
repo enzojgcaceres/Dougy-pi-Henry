@@ -319,7 +319,7 @@ const Form = () => {
                     {temperaments && (
                         <select name="temps" onChange={hadleSelectInput} >
                             {localTemps.map((temp) => {
-                                return <option key={temp.id} value={temp.name}>{temp.name}</option>
+                                return <option key={temp.id} value={temp.name} >{temp.name}</option>
                             })}
                         </select>
                     )}

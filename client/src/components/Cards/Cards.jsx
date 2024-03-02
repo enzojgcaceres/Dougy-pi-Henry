@@ -52,6 +52,7 @@ const Cards = () => {
 
     useEffect(() => {
         filterTable && setDogs(filterTable)
+        setCurrentPage(1)
     }, [filterTable])
 
 

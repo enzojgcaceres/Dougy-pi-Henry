@@ -1,8 +1,7 @@
 import { useParams, useNavigate } from "react-router-dom"
 import { useEffect } from "react";
 import { useDispatch, useSelector } from 'react-redux'
-import { dogDetail } from "../../redux/actions"
-import { cleanDetail } from "../../redux/actions";
+import { dogDetail, cleanDetail } from "../../redux/actions"
 import s from "./Detail.module.css"
 const Detail = () => {
     const navigate = useNavigate()
@@ -55,9 +54,9 @@ const Detail = () => {
                     <div className={s.textInfo}>
                         <h2 className={s.style} >{dogDetails?.name}</h2>
 
-                        <h3 className={s.style} >peso: {dogDetails?.weight}</h3>
-                        <h3 className={s.style} >{dogDetails?.life_span}</h3>
-                        <h3 className={s.style} >Criado para: {dogDetails?.bred_for}</h3>
+                        <h3 className={s.style} >peso: {dogDetails?.weight} kg. </h3>
+                        <h3 className={s.style} >Vida: {dogDetails?.life_span} años </h3>
+                        <h3 className={s.style} >Raza para: {dogDetails?.bred_for}</h3>
 
 
 

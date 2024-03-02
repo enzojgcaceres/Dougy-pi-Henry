@@ -15,7 +15,7 @@ const Landing = () => {
             <img className={s.image} src={mainDog} alt="" />
             <div className={s.intro}>
                 <h1 className={`${s.style}`} >Bienvenidos a Dogs!</h1>
-                <h2 className={`${s.style}`} >Ingresa para conocer mejor a tus amigos</h2>
+                <h2 className={`${s.style}`} >Ingresa para conocer mejor a tus mascotas</h2>
 
 
                 <button className={s.button} onClick={login}>INGRESAR A DOGS</button>
